@@ -1,0 +1,61 @@
+#c4232e  -- red
+
+
+#FBE5CD
+
+.navbar {
+    padding:0 1em;
+}
+
+
+377
+
+.navbar-nav .dropdown-menu {
+  /*background-color: rgba(0,0,0,.85);*/
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+  border-top: 0;
+  border-radius: 0;
+  left: 0;
+  font-size:12px;
+}
+
+.navbar-nav .dropdown-menu:before{
+  position: absolute;
+  top:0;
+}
+
+.navbar-nav .dropdown-menu > li > a {
+  padding: 8px 15px;
+  color: #2b2e5b;
+  font-weight:600;
+}
+
+.navbar-nav .dropdown-menu > li:hover > a,
+.navbar-nav .dropdown-menu > li:focus > a,
+.navbar-nav .dropdown-menu > li.active > a {
+  background-color: #2b2e5b;
+  color: #fff;
+}
+
+/*.navbar-nav .dropdown-menu > li:last-child > a {
+  border-radius: 0 0 3px 3px;
+}*/
+
+.navbar-nav .dropdown-menu > li.divider {
+  background-color: transparent;
+}
+
+.navbar-collapse,
+.navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #2b2e5b;
+}

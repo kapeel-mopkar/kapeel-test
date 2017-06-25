@@ -1,0 +1,24 @@
+pu8322309376_wcdr@bsnl.in
+172.30.3.130:8080
+
+.btn_style{
+	font-size: 14px;
+	color: #ffffff;
+	background: #F15F43;
+	padding: 12px 30px;
+	line-height: 20px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.btn_style:hover{
+	background: #354B77;
+}

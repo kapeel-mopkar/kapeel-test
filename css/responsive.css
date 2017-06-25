@@ -1,0 +1,838 @@
+/*responsive*/
+/* lg */ 
+@media (min-width: 1200px) {
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+}
+
+@media(max-width:1080px){
+div#bs-example-navbar-collapse-1 {
+    float: right;
+    width: 80%;
+}
+.banner-info {
+    margin: 10em auto 0;
+}
+.banner-info h3 {
+    font-size: 2.2em;
+}
+h2.tittle {
+    font-size: 2.2em;
+}
+.welcome-head p {
+    font-size: 0.95em;
+    width: 51%;
+}
+.test1 .textbox {
+    width: 210px;
+    height: 259px;
+    padding: 5em 1em 0;
+}
+.textbox h4,.right-grid h4,.test-grid h4,.footer-section h4,.about-grid h4,.team-gd h4,.choose-gd h4, .enquiry-gd h4,.forest-grid h4,.contact-grid1 h4 {
+    font-size: 1.4em;
+}
+h3.tittle,h3.tittle1, h3.tittle2 {
+    font-size: 2.2em;
+}
+.bar-grid h5 {
+    font-size: 1.1em;
+}
+.test-list ul li.text {
+    font-size: 0.95em;
+}
+.text-img {
+    position: absolute;
+    top: 210px;
+    left: 75px;
+}
+.statistics-grid h5 {
+    font-size: 1.3em;
+}
+.da-thumbs li a div h5 {
+    margin: 3em 0 0 0;
+}
+.forest-grid ul li {
+    font-size: 0.9em;
+}
+.contact-grid h5, .agent-info h5 {
+    font-size: 1.2em;
+}
+.google-map iframe {
+    height: 440px
+}
+.contact-grid input[type="submit"] {
+    width: 30%;
+}
+}
+@media(max-width:991px){
+.navbar-brand {
+    font-size: 1.1em;	
+}
+.navbar-nav > li > a {
+    font-size: 0.8em;
+    text-transform: uppercase;
+	font-weight:600;
+    padding: 2em 0.5em 0.5em;
+}
+.navbar-nav .dropdown-menu > li > a {
+  padding: 8px 15px;
+  font-weight:600;
+  text-transform:uppercase;
+  font-size:0.8em;
+}
+div#bs-example-navbar-collapse-1 {
+    float: right;
+    width: 78%;
+}
+.navbar-nav {
+    margin: 0.8em 0 0;
+}
+.banner-info {
+    margin: 9em auto 0;
+    width: 82%;
+}
+.banner-info h3 {
+    font-size: 2em;
+}
+.welcome, .services, .about-section, .page, .gallery, .enquiries, .forest,.statistics ,.team,.contact-section,.what-section{
+    padding: 4em 0;
+}
+.welcome-grid {
+    float: left;
+    width: 25%;
+}
+.test1 .textbox {
+    width: 155px;
+    height: 192px;
+    padding: 2em 0.5em 0;
+}
+.welcome-head p {
+    font-size: 0.95em;
+    width: 70%;
+}
+.welcome-grids, .services-grids, .test-grids, .gallery-grids, .about-grids, .team-grids, .choose-grids, .enquiry-grids, .forest-grids ,.statistics-grids{
+    margin-top: 3em;
+}
+h2.tittle {
+    font-size: 2em;
+}
+h3.tittle,h3.tittle1, h3.tittle2 {
+    font-size: 2em;
+}
+
+
+.image_content h2{
+	font-size:2em;
+}
+
+
+
+.services-grid {
+    float: left;
+    width: 33.3%;
+}
+.left-grid i {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+}
+.textbox h4, .right-grid h4, .test-grid h4, .footer-section h4, .about-grid h4, .team-gd h4, .choose-gd h4, .enquiry-gd h4, .forest-grid h4, .contact-grid1 h4 {
+    font-size: 1.3em;
+}
+.test-list,.bar-grid {
+    float: left;
+    width: 50%;
+}
+.test-grid {
+    float: left;
+    width: 50%;
+}
+.test-grid:nth-child(3),.test-grid:nth-child(4) {
+    margin-top: 6em;
+}
+.text-img {
+    position: absolute;
+    top: 153px;
+    left: 136px;
+}
+.footer-grid {
+    float: left;
+    width: 50%;
+}
+.footer-grid:nth-child(3),.footer-grid:nth-child(4) {
+    margin-top: 2em;
+}
+
+.subpage_title h2{
+	font-size:2em;
+}
+.about-grid {
+    float: left;
+    width: 50%;
+}
+.statistics-grid {
+    float: left;
+    width: 25%;
+}
+.statistics-grid h5 {
+    font-size: 1.2em;
+}
+.numscroller {
+    font-size: 2em;
+}
+.team-gd {
+    float: left;
+    width: 33.3%;
+}
+.team-gd img {
+    width: 100%;
+}
+p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.da-thumbs li a div h5 {
+    margin: 2.5em 0 0;
+    font-size: 1.5em;
+}
+.choose-gd {
+    float: left;
+    width: 25%;
+}
+.enquiry-gd {
+    float: left;
+    width: 33.3%;
+}
+.forest-grid {
+    width: 50%;
+    float: left;
+}
+.forest-grid:nth-child(3),.forest-grid:nth-child(4) {
+    margin-top: 2em;
+}
+.google-map iframe {
+    height: 350px;
+}
+.contact-grid {
+    float: left;
+    width: 60%;
+}
+.contact-grid input[type="text"], .contact-grid textarea, .contact-grid input[type="email"] {
+    width: 99%;
+	font-size:0.95em;
+}
+.contact-grid1 {
+    float: left;
+    width: 40%;
+}
+.contact-grid h5, .agent-info h5 {
+    line-height: 1.5em;
+}
+.contact-grid input[type="submit"] {
+    width: 43%;
+}
+}
+@media(max-width:800px){
+body{
+    padding-top: 30px;
+}
+.banner-info {
+    margin: 6em auto 0;
+}
+}
+@media(max-width:736px){
+body{
+    padding-top: 40px;
+}	
+.navbar-brand {
+	height: 90px;
+}
+div#bs-example-navbar-collapse-1 {
+    float: none;
+    width: 100%;
+}
+.header {
+    padding: 1em 0;
+}
+
+/*.navbar-nav {
+    float: none;
+    text-align: center;
+}*/	
+.social-icons {
+    float: none;
+    text-align: center;
+}
+.banner-info h3 {
+    font-size: 1.8em;
+}
+.welcome, .services, .about-section, .page, .gallery, .enquiries, .forest,.statistics ,.team,.contact-section,.what-section,.footer-section,.enquiry{
+    padding: 3em 0;
+}
+h3.tittle, h3.tittle1, h3.tittle2 {
+    font-size: 1.8em;
+}
+
+
+.image_content h2{
+	font-size:1.8em;
+}
+
+.subpage_title h2{
+	font-size:1.8em;
+}
+
+
+
+.test-list ul li.text {
+    font-size: 0.9em;
+    margin-left: 4px;
+}
+.statistics-grid h5 {
+    font-size: 1.05em;
+}
+.textbox h4, .right-grid h4, .test-grid h4, .footer-section h4, .about-grid h4, .team-gd h4, .choose-gd h4, .enquiry-gd h4, .forest-grid h4, .contact-grid1 h4 {
+    font-size: 1.2em;
+}
+.test1 .textbox {
+    width: 147px;
+    height: 183px;
+}
+.textbox p {
+    font-size: 0.85em;
+}
+}
+@media(max-width:667px){
+body{
+    padding-top: 40px;
+}
+.banner-info h3 {
+    font-size: 1.5em;
+}
+.banner-info {
+    margin: 4.5em auto 0;
+}
+.welcome-grid {
+    float: left;
+    width: 50%;
+}
+.welcome-grid:nth-child(3),.welcome-grid:nth-child(4) {
+    margin-top: 2em;
+}	
+.test1 .textbox {
+    width: 285px;
+    height: 344px;
+    padding: 9em 0.5em 0;
+}
+.test-list ul li.text {
+    font-size: 0.8em;
+    margin-left: 4px;
+}
+.welcome-head p {
+    width: 79%;
+}
+.test {
+    padding: 3em 0 7em;
+}
+.text-img {
+    position: absolute;
+    top: 170px;
+    left: 110px;
+}
+.textbox h4, .right-grid h4, .test-grid h4, .footer-section h4, .about-grid h4, .team-gd h4, .choose-gd h4, .enquiry-gd h4, .forest-grid h4, .contact-grid1 h4 {
+    font-size: 1.15em;
+}
+h3.tittle, h3.tittle1, h3.tittle2 {
+    font-size: 1.6em;
+}
+.bar-grid h5 {
+    font-size: 1em;
+}
+.statistics-grid {
+    float: left;
+    width: 50%;
+}
+.statistics-grid:nth-child(3),.statistics-grid:nth-child(4) {
+    margin-top: 2em;
+}
+.da-thumbs li a div h5 {
+    margin: 2em 0 0;
+}
+.choose-gd {
+    float: left;
+    width: 50%;
+}
+.choose-gd:nth-child(3),.choose-gd:nth-child(4) {
+    margin-top: 2em;
+}
+.google-map iframe {
+    height: 300px;
+}
+.contact-grid1 ul li {
+    font-size: 0.9em;
+}
+.contact-grid input[type="submit"] {
+    width: 52%;
+}
+}
+@media(max-width:640px){
+.subpage_title h2{
+	font-size:1.5em;
+}
+
+.image_content h2{
+	font-size:1.5em;
+}
+.test1 .textbox {
+    width: 274px;
+    height: 332px;
+    padding: 9em 0.5em 0;
+}
+.test-list ul li.text {
+    font-size: 0.77em;
+    margin-left: 4px;
+}
+.agent-info {
+    margin-top: 1em;
+}
+.banner1 {
+    min-height: 120px;
+    padding: 3.5em 0 0;
+}
+.banner1 h3 {
+    font-size: 1.5em;
+}
+}
+@media(max-width:600px){
+body{
+	padding-top:50px;	
+}
+.welcome-head p {
+    width: 87%;
+}
+.banner-info {
+    width: 83%;
+}
+.test1 .textbox {
+    width: 251px;
+    height: 305px;
+    padding: 7.5em 0.5em 0;	
+	
+}
+
+.maincontent h2.title {
+	font-size:1em;
+}
+
+.welcome-grids, .services-grids, .test-grids, .gallery-grids, .about-grids, .team-grids, .choose-grids, .enquiry-grids, .forest-grids, .statistics-grids {
+    margin-top: 2em;
+}
+.services-grid {
+    float: left;
+    width: 100%;
+}
+.right-grid {
+    float: left;
+    width: 100%;
+}
+.left-grid {
+    width: 100%;
+	margin-right: 0%;
+    margin-bottom: 0.5em;
+}
+.right-grid p {
+    padding: 0 4em;
+}
+.services-grid:nth-child(2) {
+    margin: 2em 0;
+}
+.bar-grid h5 {
+    font-size: 0.95em;
+}
+.test-list, .bar-grid {
+    float: left;
+    width: 100%;
+}
+.bar-grid {
+    margin-top: 2em;
+}
+.test-list ul li.text {
+    font-size: 0.9em;
+}
+.text-img {
+    position: absolute;
+    top: 170px;
+    left: 96px;
+}
+.da-thumbs li a div h5 {
+    margin: 1.7em 0 0;
+}
+.agent-info {
+    float: left;
+    width: 67%;
+    margin-top: 0.2em;
+}
+.contact-grid input[type="submit"] {
+    width: 57%;
+}
+}
+@media(max-width:568px){
+body{
+	padding-top:50px;	
+}
+.banner-info {
+    width: 90%;
+    margin: 4em auto 0;
+}
+.welcome-head p {
+    width: 92%;
+}
+.text-img {
+    position: absolute;
+    top: 192px;
+}
+.contact-grid {
+    float: left;
+    width: 100%;
+}
+.contact-grid1 {
+    width: 100%;
+    margin-top: 2em;
+}
+.agent-info {
+    margin-top: 2.2em;
+}
+.test1 .textbox {
+    width: 235px;
+    height: 286px;
+    padding: 7em 0.5em 0;
+}
+#Choco_left_arrow {
+    left: -3% !important;
+}
+#Choco_right_arrow {
+    left: 10% !important;
+}	
+}
+@media(max-width:480px){
+body{
+	padding-top:50px;	
+}
+.navbar-brand {
+    font-size: 1em;
+}
+.banner-info {
+    width: 100%;
+    margin: 2em auto 0;
+}
+.banner-info p {
+    color: #fff;
+    margin: 0.5em auto 0;
+    line-height: 1.5em;
+}
+.banner-info h3 {
+    font-size: 1.3em;
+}
+h2.tittle {
+    font-size: 1.8em;
+}
+.test1 .textbox {
+    width: 191px;
+    height: 234px;
+    padding: 4.5em 0.5em 0;
+}
+.welcome-head p {
+    width: 100%;
+}
+.test-grid {
+    width: 100%;
+}
+.test-grid:nth-child(2){
+	margin-top:6em;
+}
+
+.thumbnail_details h3{
+	font-size: 0.9em;
+}
+.thumbnail_details i{
+	font-size:1em;
+}
+
+.image_content h2{
+	font-size:1.2em;
+}
+
+.subpage_title h2{
+	font-size:1.5em;
+}
+.maincontent h2.title {
+	font-size:1em;
+}
+
+.text-img {
+    position: absolute;
+    top: 144px;
+    left: 170px;
+}
+.about-grid {
+    width: 100%;
+}
+.about-grid:nth-child(2){
+	margin-top:2em;
+}
+.team-gd {
+    width: 100%;
+}
+.team-gd:nth-child(2),.enquiry-gd:nth-child(2){
+	margin:2em 0;
+}
+.team-gd img {
+    width: 50%;
+}
+.da-thumbs li a div h5 {
+    margin: 1.5em 0 0;
+    font-size: 1.3em;
+}
+.enquiry-gd {
+    float: left;
+    width: 100%;
+}
+.forest-grid ul li {
+    font-size: 0.83em;
+}.page-header h3 {
+    font-size: 1.6em;
+}
+h1#h1-bootstrap-heading {
+    font-size: 1.6em;
+}
+h2#h2-bootstrap-heading {
+    font-size: 1.5em;
+}
+h3#h3-bootstrap-heading {
+    font-size: 1.4em;
+}
+.page-header h3 {
+    font-size: 1.6em;
+}
+button.btn.btn-lg {
+    font-size: 0.9em;
+    margin: 0 0 0.5em 0px;
+    padding: 9px;
+}
+span.label {
+    margin: 0 0 0.5em;
+    display: inline-block;
+	    font-size: 53%;
+}
+}
+@media(max-width:414px){
+body{
+	padding-top:50px;	
+}
+.banner-info {
+    margin: 2em auto 0;
+}
+.welcome, .services, .about-section, .page, .gallery, .enquiries, .forest, .statistics, .team, .contact-section, .what-section, .footer-section,.enquiry {
+    padding: 2em 0;
+}
+
+
+.thumbnail_details h3{
+	font-size: 0.8em;
+}
+.thumbnail_details i{
+	font-size:0.9em;
+}
+
+.image_content h2{
+	font-size:1em;
+}
+
+.test1 .textbox{
+    width: 158px;
+    height: 196px;
+    padding: 3em 0.5em 0;
+}
+.right-grid p {
+    padding: 0 2em;
+}
+.text-img {
+    left: 145px;
+}
+.footer-grid {
+    width: 100%;
+}
+.footer-grid:nth-child(2),.footer-grid:nth-child(3), .footer-grid:nth-child(4) {
+    margin-top: 1em;
+}
+.da-thumbs li {
+    float: left;
+    width: 49.2%;
+}
+.da-thumbs li a div h5 {
+    margin: 2.2em 0 0;
+}
+.forest-grid {
+    width: 100%;
+}
+.forest-grid:nth-child(2).forest-grid:nth-child(3), .forest-grid:nth-child(4) {
+    margin-top: 2em;
+}
+}
+@media(max-width:384px){
+body{
+	padding-top:60px;	
+}
+.header {
+    padding: 0.5em 0;
+}
+.banner1 h3 {
+    font-size: 1.2em;
+}
+.banner1 {
+    min-height: 90px;
+    padding: 2.5em 0 0;
+}
+.banner-info h3 {
+    font-size: 1.1em;
+}
+.welcome-grid {
+    width: 100%;
+}
+.welcome-grid:nth-child(2),.welcome-grid:nth-child(3), .welcome-grid:nth-child(4) {
+    margin-top: 2em;
+}
+
+.test1 .textbox {
+    width: 312px;
+    height: 376px;
+    padding: 9em 1.5em 0;
+    line-height: 1.8em;
+}
+.right-grid p {
+    padding: 0 0em;
+}
+.text-img {
+    left: 132px;
+}
+.textbox h4, .right-grid h4, .test-grid h4, .footer-section h4, .about-grid h4, .team-gd h4, .choose-gd h4, .enquiry-gd h4, .forest-grid h4, .contact-grid1 h4 {
+    font-size: 1.3em;
+}
+.da-thumbs li a div h5 {
+        margin: 1.8em 0 0;
+}
+.choose-gd {
+    width: 100%;
+}
+.choose-gd:nth-child(2),.choose-gd:nth-child(3),.choose-gd:nth-child(4) {
+    margin-top: 2em;
+}
+.google-map {
+    margin-top: 2em;
+}
+.contact-grids {
+    margin-top: 2em;
+}
+.contact-grid h5, .agent-info h5 {
+    font-size: 1em;
+}
+}
+@media(max-width:375px){
+body{
+	padding-top:120px;	
+}
+h2.tittle {
+    font-size: 1.5em;
+}
+.test1 .textbox {
+    width: 302px;
+    height: 366px;
+}
+.navbar-brand {
+    font-size: 0.95em;
+}
+.test-list ul li.text {
+    font-size: 0.85em;
+}
+.text-img {
+    left: 120px;
+}
+.welcome-grids, .services-grids, .test-grids, .gallery-grids, .about-grids, .team-grids, .choose-grids, .enquiry-grids, .forest-grids, .statistics-grids {
+    margin-top: 1.5em;
+}
+.test {
+    padding: 2em 0 7em;
+}
+h3.tittle, h3.tittle1, h3.tittle2 {
+    font-size: 1.5em;
+}
+}
+@media(max-width:320px){
+body{
+	padding-top:120px;	
+}
+.banner-info p {
+    margin: 0.2em auto 0;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+.banner-info {
+    margin: 1em auto 0;
+}
+.banner-info h3 {
+    font-size: 1.02em;
+}
+.welcome-head p {
+    font-size: 0.85em;
+}
+.test1 .textbox {
+    width: 273px;
+    height: 336px;
+    padding: 7.5em 0.5em 0;
+    left: 0;
+}
+.welcome-grid,.services-grid,.test-list, .bar-grid,.test-grid,.about-grid,.statistics-grid,.team-gd,.choose-gd,.enquiry-gd,.forest-grid ,.contact-grid,.contact-grid1{
+    padding: 0;
+}
+.welcome-grid:nth-child(2), .welcome-grid:nth-child(3), .welcome-grid:nth-child(4) {
+    margin-top: 1em;
+}
+.services-grid:nth-child(2) {
+    margin: 1em 0;
+}
+.test-list ul li.text {
+    font-size: 0.8em;
+	margin-left: 0px;
+}
+.text-img {
+    left: 100px;
+    top: 170px;
+}
+.da-thumbs li {
+    float: left;
+    width: 100%;
+}
+.da-thumbs li a div h5 {
+    margin: 3.5em 0 0;
+}
+.google-map iframe {
+    height: 240px;
+}
+.google-map {
+    margin-top: 1em;
+}
+.contact-grids {
+    margin-top: 1em;
+}
+.agent-info {
+    margin-top: 1.2em;
+}
+#Choco_right_arrow {
+    left: 11% !important;
+}
+}
